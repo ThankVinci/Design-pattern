@@ -13,29 +13,17 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="头文件\工厂类">
-      <UniqueIdentifier>{023c46ab-1668-483b-b66c-845c8f130195}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="头文件\产品类">
-      <UniqueIdentifier>{cc659eba-c732-4874-8cfe-f4e08319b87c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\产品类">
+    <Filter Include="产品类">
       <UniqueIdentifier>{e9627a9f-bade-40cc-8e8f-02e5a53e31b4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\工厂类">
-      <UniqueIdentifier>{7dd57069-9869-4d6c-ba55-85ffbc2775be}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\工厂类\抽象工厂">
-      <UniqueIdentifier>{a8dcfe74-dfc7-4bca-bbdb-24a990a4ee6a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\产品类\抽象产品">
+    <Filter Include="产品类\抽象产品">
       <UniqueIdentifier>{2830f829-9df3-4713-af38-c9b711b131d2}</UniqueIdentifier>
     </Filter>
-    <Filter Include="头文件\工厂类\抽象工厂">
-      <UniqueIdentifier>{86c01dd1-6a11-4ce0-ae1f-4d47a6bc0915}</UniqueIdentifier>
+    <Filter Include="工厂类">
+      <UniqueIdentifier>{7dd57069-9869-4d6c-ba55-85ffbc2775be}</UniqueIdentifier>
     </Filter>
-    <Filter Include="头文件\产品类\抽象产品">
-      <UniqueIdentifier>{990a8d89-2381-4f35-ac69-4f2a25cbdb96}</UniqueIdentifier>
+    <Filter Include="工厂类\抽象工厂">
+      <UniqueIdentifier>{a8dcfe74-dfc7-4bca-bbdb-24a990a4ee6a}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -43,60 +31,60 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="IFactory.cpp">
-      <Filter>源文件\工厂类\抽象工厂</Filter>
+      <Filter>工厂类\抽象工厂</Filter>
     </ClCompile>
     <ClCompile Include="IProduct.cpp">
-      <Filter>源文件\产品类\抽象产品</Filter>
+      <Filter>产品类\抽象产品</Filter>
     </ClCompile>
     <ClCompile Include="SoapFactory.cpp">
-      <Filter>源文件\工厂类</Filter>
+      <Filter>工厂类</Filter>
     </ClCompile>
     <ClCompile Include="BlackTea.cpp">
-      <Filter>源文件\产品类</Filter>
+      <Filter>产品类</Filter>
     </ClCompile>
     <ClCompile Include="Soap.cpp">
-      <Filter>源文件\产品类</Filter>
+      <Filter>产品类</Filter>
     </ClCompile>
     <ClCompile Include="Sugar.cpp">
-      <Filter>源文件\产品类</Filter>
+      <Filter>产品类</Filter>
     </ClCompile>
     <ClCompile Include="SugarFactory.cpp">
-      <Filter>源文件\工厂类</Filter>
+      <Filter>工厂类</Filter>
     </ClCompile>
     <ClCompile Include="BlackTeaFactory.cpp">
-      <Filter>源文件\工厂类</Filter>
+      <Filter>工厂类</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="IFactory.h">
-      <Filter>头文件\工厂类\抽象工厂</Filter>
-    </ClInclude>
-    <ClInclude Include="IProduct.h">
-      <Filter>头文件\产品类\抽象产品</Filter>
-    </ClInclude>
-    <ClInclude Include="SoapFactory.h">
-      <Filter>头文件\工厂类</Filter>
-    </ClInclude>
-    <ClInclude Include="BlackTea.h">
-      <Filter>头文件\产品类</Filter>
-    </ClInclude>
-    <ClInclude Include="Soap.h">
-      <Filter>头文件\产品类</Filter>
-    </ClInclude>
-    <ClInclude Include="Sugar.h">
-      <Filter>头文件\产品类</Filter>
-    </ClInclude>
-    <ClInclude Include="SugarFactory.h">
-      <Filter>头文件\工厂类</Filter>
-    </ClInclude>
-    <ClInclude Include="BlackTeaFactory.h">
-      <Filter>头文件\工厂类</Filter>
-    </ClInclude>
     <ClInclude Include="productinfo.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IProduct.h">
+      <Filter>产品类\抽象产品</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackTea.h">
+      <Filter>产品类</Filter>
+    </ClInclude>
+    <ClInclude Include="Sugar.h">
+      <Filter>产品类</Filter>
+    </ClInclude>
+    <ClInclude Include="Soap.h">
+      <Filter>产品类</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackTeaFactory.h">
+      <Filter>工厂类</Filter>
+    </ClInclude>
+    <ClInclude Include="SugarFactory.h">
+      <Filter>工厂类</Filter>
+    </ClInclude>
+    <ClInclude Include="SoapFactory.h">
+      <Filter>工厂类</Filter>
+    </ClInclude>
+    <ClInclude Include="IFactory.h">
+      <Filter>工厂类\抽象工厂</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

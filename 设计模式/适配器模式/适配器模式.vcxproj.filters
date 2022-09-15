@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="适配者">
+      <UniqueIdentifier>{64a19e33-0265-4d70-aa43-f37be8ea86ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="抽象目标类">
+      <UniqueIdentifier>{3f0bc6ed-02a2-41dd-b756-1bde141d1d1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="适配器">
+      <UniqueIdentifier>{3ec67cde-e455-4cc8-85bf-c838802a17a2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ILight.cpp">
+      <Filter>抽象目标类</Filter>
+    </ClCompile>
+    <ClCompile Include="ISoup.cpp">
+      <Filter>抽象目标类</Filter>
+    </ClCompile>
+    <ClCompile Include="Human.cpp">
+      <Filter>适配者</Filter>
+    </ClCompile>
+    <ClCompile Include="LightAdapter.cpp">
+      <Filter>适配器</Filter>
+    </ClCompile>
+    <ClCompile Include="LightAdapter2.cpp">
+      <Filter>适配器</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ILight.h">
+      <Filter>抽象目标类</Filter>
+    </ClInclude>
+    <ClInclude Include="ISoup.h">
+      <Filter>抽象目标类</Filter>
+    </ClInclude>
+    <ClInclude Include="Human.h">
+      <Filter>适配者</Filter>
+    </ClInclude>
+    <ClInclude Include="LightAdapter.h">
+      <Filter>适配器</Filter>
+    </ClInclude>
+    <ClInclude Include="LightAdapter2.h">
+      <Filter>适配器</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

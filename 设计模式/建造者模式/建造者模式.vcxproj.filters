@@ -13,45 +13,54 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="产品类">
+      <UniqueIdentifier>{66e1aa6b-c5b3-4b06-b017-9c0617d8d1ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="建造者类">
+      <UniqueIdentifier>{eeec8b5e-8101-4bcb-af3c-28309130d64b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="指挥者类">
+      <UniqueIdentifier>{184c6362-bece-42f1-a3e6-44d9f003a8a9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Director.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="IPCBuild.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="PCProduct.cpp">
-      <Filter>源文件</Filter>
+      <Filter>产品类</Filter>
+    </ClCompile>
+    <ClCompile Include="IPCBuild.cpp">
+      <Filter>建造者类</Filter>
     </ClCompile>
     <ClCompile Include="TBJSBuild.cpp">
-      <Filter>源文件</Filter>
+      <Filter>建造者类</Filter>
     </ClCompile>
     <ClCompile Include="TLDBuild.cpp">
-      <Filter>源文件</Filter>
+      <Filter>建造者类</Filter>
+    </ClCompile>
+    <ClCompile Include="Director.cpp">
+      <Filter>指挥者类</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Director.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="IPCBuild.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="PCProduct.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="stdafx.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="PCProduct.h">
+      <Filter>产品类</Filter>
+    </ClInclude>
+    <ClInclude Include="IPCBuild.h">
+      <Filter>建造者类</Filter>
+    </ClInclude>
     <ClInclude Include="TBJSBuild.h">
-      <Filter>头文件</Filter>
+      <Filter>建造者类</Filter>
     </ClInclude>
     <ClInclude Include="TLDBuild.h">
-      <Filter>头文件</Filter>
+      <Filter>建造者类</Filter>
+    </ClInclude>
+    <ClInclude Include="Director.h">
+      <Filter>指挥者类</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

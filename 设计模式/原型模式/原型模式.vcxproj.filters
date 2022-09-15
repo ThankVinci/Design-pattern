@@ -13,19 +13,25 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="原型">
+      <UniqueIdentifier>{abb7c464-8e7d-4378-a922-1da4a2352f99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="工厂类">
+      <UniqueIdentifier>{25ae750f-327a-44fa-8bce-7a914643d7a7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Misaka.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="Cloneable.cpp">
-      <Filter>源文件</Filter>
+      <Filter>原型</Filter>
+    </ClCompile>
+    <ClCompile Include="Misaka.cpp">
+      <Filter>原型</Filter>
     </ClCompile>
     <ClCompile Include="MisakaFactory.cpp">
-      <Filter>源文件</Filter>
+      <Filter>工厂类</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -33,13 +39,13 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Misaka.h">
-      <Filter>头文件</Filter>
+      <Filter>原型</Filter>
     </ClInclude>
     <ClInclude Include="Cloneable.h">
-      <Filter>头文件</Filter>
+      <Filter>原型</Filter>
     </ClInclude>
     <ClInclude Include="MisakaFactory.h">
-      <Filter>头文件</Filter>
+      <Filter>工厂类</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

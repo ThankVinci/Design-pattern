@@ -13,37 +13,31 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="头文件\工厂类">
-      <UniqueIdentifier>{749cb94a-5e9a-409e-b4dd-ec63ead206ed}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="头文件\产品类">
+    <Filter Include="产品类">
       <UniqueIdentifier>{de18650a-9627-48b8-af4a-44bc8b21cf0d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\工厂类">
-      <UniqueIdentifier>{14814612-04a1-4e09-90a7-29054ca96b16}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\产品类">
-      <UniqueIdentifier>{de2426c7-44bb-4659-94b6-90bfa31bb505}</UniqueIdentifier>
+    <Filter Include="工厂类">
+      <UniqueIdentifier>{749cb94a-5e9a-409e-b4dd-ec63ead206ed}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Factory.cpp">
-      <Filter>源文件\工厂类</Filter>
+    <ClCompile Include="BlackTea.cpp">
+      <Filter>产品类</Filter>
     </ClCompile>
     <ClCompile Include="Product.cpp">
-      <Filter>源文件\产品类</Filter>
-    </ClCompile>
-    <ClCompile Include="BlackTea.cpp">
-      <Filter>源文件\产品类</Filter>
+      <Filter>产品类</Filter>
     </ClCompile>
     <ClCompile Include="Soap.cpp">
-      <Filter>源文件\产品类</Filter>
+      <Filter>产品类</Filter>
     </ClCompile>
     <ClCompile Include="Sugar.cpp">
-      <Filter>源文件\产品类</Filter>
+      <Filter>产品类</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory.cpp">
+      <Filter>工厂类</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -51,19 +45,19 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Factory.h">
-      <Filter>头文件\工厂类</Filter>
+      <Filter>工厂类</Filter>
     </ClInclude>
     <ClInclude Include="Product.h">
-      <Filter>头文件\产品类</Filter>
+      <Filter>产品类</Filter>
     </ClInclude>
     <ClInclude Include="Soap.h">
-      <Filter>头文件\产品类</Filter>
+      <Filter>产品类</Filter>
     </ClInclude>
     <ClInclude Include="BlackTea.h">
-      <Filter>头文件\产品类</Filter>
+      <Filter>产品类</Filter>
     </ClInclude>
     <ClInclude Include="Sugar.h">
-      <Filter>头文件\产品类</Filter>
+      <Filter>产品类</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

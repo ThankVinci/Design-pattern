@@ -13,11 +13,8 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="头文件\单例">
+    <Filter Include="单例">
       <UniqueIdentifier>{6f75f524-baf5-4c3d-ad23-c655c7b1fc9e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\单例">
-      <UniqueIdentifier>{23217466-8478-4715-80a7-f7d60d65f4ef}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -25,12 +22,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="God.cpp">
-      <Filter>源文件\单例</Filter>
+      <Filter>单例</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="God.h">
-      <Filter>头文件\单例</Filter>
+      <Filter>单例</Filter>
     </ClInclude>
     <ClInclude Include="stdafx.h">
       <Filter>头文件</Filter>

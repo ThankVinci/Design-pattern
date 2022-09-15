@@ -13,40 +13,34 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="头文件\工厂类">
-      <UniqueIdentifier>{6e02e93d-1d5e-47bb-8bdc-d11e3a9af119}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="头文件\产品类">
+    <Filter Include="产品类">
       <UniqueIdentifier>{1d8d892e-a222-4c67-8058-fa28c7097db9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\工厂类">
-      <UniqueIdentifier>{41f13ded-59e3-4eb3-b026-4b679bfdec8b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\产品类">
-      <UniqueIdentifier>{f83fa4db-9d4d-4ea5-b78b-ffebb9a0bc1b}</UniqueIdentifier>
+    <Filter Include="工厂类">
+      <UniqueIdentifier>{6e02e93d-1d5e-47bb-8bdc-d11e3a9af119}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="IDrink.cpp">
-      <Filter>源文件\产品类</Filter>
-    </ClCompile>
-    <ClCompile Include="IFactory.cpp">
-      <Filter>源文件\工厂类</Filter>
+    <ClCompile Include="CherryCola.cpp">
+      <Filter>产品类</Filter>
     </ClCompile>
     <ClCompile Include="Cola.cpp">
-      <Filter>源文件\产品类</Filter>
-    </ClCompile>
-    <ClCompile Include="CherryCola.cpp">
-      <Filter>源文件\产品类</Filter>
+      <Filter>产品类</Filter>
     </ClCompile>
     <ClCompile Include="DietCola.cpp">
-      <Filter>源文件\产品类</Filter>
+      <Filter>产品类</Filter>
+    </ClCompile>
+    <ClCompile Include="IDrink.cpp">
+      <Filter>产品类</Filter>
     </ClCompile>
     <ClCompile Include="ColaFactory.cpp">
-      <Filter>源文件\工厂类</Filter>
+      <Filter>工厂类</Filter>
+    </ClCompile>
+    <ClCompile Include="IFactory.cpp">
+      <Filter>工厂类</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -54,22 +48,22 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="IDrink.h">
-      <Filter>头文件\产品类</Filter>
+      <Filter>产品类</Filter>
     </ClInclude>
     <ClInclude Include="IFactory.h">
-      <Filter>头文件\工厂类</Filter>
+      <Filter>工厂类</Filter>
     </ClInclude>
     <ClInclude Include="Cola.h">
-      <Filter>头文件\产品类</Filter>
+      <Filter>产品类</Filter>
     </ClInclude>
     <ClInclude Include="CherryCola.h">
-      <Filter>头文件\产品类</Filter>
+      <Filter>产品类</Filter>
     </ClInclude>
     <ClInclude Include="DietCola.h">
-      <Filter>头文件\产品类</Filter>
+      <Filter>产品类</Filter>
     </ClInclude>
     <ClInclude Include="ColaFactory.h">
-      <Filter>头文件\工厂类</Filter>
+      <Filter>工厂类</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
