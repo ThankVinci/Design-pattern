@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "代理模式", "代理模�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "桥接模式", "桥接模式\桥接模式.vcxproj", "{7436892D-3C6D-4714-A67C-F39F9356E226}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "外观模式", "外观模式\外观模式.vcxproj", "{BFE2FD62-CAF1-4B39-A742-0320E6C1FDDB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -117,6 +119,14 @@ Global
 		{7436892D-3C6D-4714-A67C-F39F9356E226}.Release|x64.Build.0 = Release|x64
 		{7436892D-3C6D-4714-A67C-F39F9356E226}.Release|x86.ActiveCfg = Release|Win32
 		{7436892D-3C6D-4714-A67C-F39F9356E226}.Release|x86.Build.0 = Release|Win32
+		{BFE2FD62-CAF1-4B39-A742-0320E6C1FDDB}.Debug|x64.ActiveCfg = Debug|x64
+		{BFE2FD62-CAF1-4B39-A742-0320E6C1FDDB}.Debug|x64.Build.0 = Debug|x64
+		{BFE2FD62-CAF1-4B39-A742-0320E6C1FDDB}.Debug|x86.ActiveCfg = Debug|Win32
+		{BFE2FD62-CAF1-4B39-A742-0320E6C1FDDB}.Debug|x86.Build.0 = Debug|Win32
+		{BFE2FD62-CAF1-4B39-A742-0320E6C1FDDB}.Release|x64.ActiveCfg = Release|x64
+		{BFE2FD62-CAF1-4B39-A742-0320E6C1FDDB}.Release|x64.Build.0 = Release|x64
+		{BFE2FD62-CAF1-4B39-A742-0320E6C1FDDB}.Release|x86.ActiveCfg = Release|Win32
+		{BFE2FD62-CAF1-4B39-A742-0320E6C1FDDB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -132,6 +142,7 @@ Global
 		{A8246675-3EFD-4C4B-988F-AFBD15C65189} = {CE76DB3E-E256-4C78-9AB4-88CA0EDEF5D4}
 		{E7FFCDA1-165A-4EC4-8A54-BC5CBCF46F4C} = {CE76DB3E-E256-4C78-9AB4-88CA0EDEF5D4}
 		{7436892D-3C6D-4714-A67C-F39F9356E226} = {CE76DB3E-E256-4C78-9AB4-88CA0EDEF5D4}
+		{BFE2FD62-CAF1-4B39-A742-0320E6C1FDDB} = {CE76DB3E-E256-4C78-9AB4-88CA0EDEF5D4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {21E24356-B467-43B7-A23A-0030CA608E4E}
