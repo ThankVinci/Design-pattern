@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="能力类">
+      <UniqueIdentifier>{ea4a5c1d-fb45-41f9-8086-0679c4474bae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="无限宝石类">
+      <UniqueIdentifier>{bf55103f-ba0e-43fd-89b2-3343f0eb64e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="灭霸类">
+      <UniqueIdentifier>{706496bc-61ab-4bbf-bbea-6907569ffb48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="无线手套类">
+      <UniqueIdentifier>{c5165838-1221-45a1-9052-8f475b563126}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IAbility.cpp">
+      <Filter>能力类</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerStone.cpp">
+      <Filter>无限宝石类</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceStone.cpp">
+      <Filter>无限宝石类</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Thanos.cpp">
+      <Filter>灭霸类</Filter>
+    </ClCompile>
+    <ClCompile Include="InfinityGauntlet.cpp">
+      <Filter>无线手套类</Filter>
+    </ClCompile>
+    <ClCompile Include="MindStone.cpp">
+      <Filter>无限宝石类</Filter>
+    </ClCompile>
+    <ClCompile Include="RealityStone.cpp">
+      <Filter>无限宝石类</Filter>
+    </ClCompile>
+    <ClCompile Include="SoulStone.cpp">
+      <Filter>无限宝石类</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeStone.cpp">
+      <Filter>无限宝石类</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IAbility.h">
+      <Filter>能力类</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerStone.h">
+      <Filter>无限宝石类</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceStone.h">
+      <Filter>无限宝石类</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Thanos.h">
+      <Filter>灭霸类</Filter>
+    </ClInclude>
+    <ClInclude Include="InfinityGauntlet.h">
+      <Filter>无线手套类</Filter>
+    </ClInclude>
+    <ClInclude Include="MindStone.h">
+      <Filter>无限宝石类</Filter>
+    </ClInclude>
+    <ClInclude Include="RealityStone.h">
+      <Filter>无限宝石类</Filter>
+    </ClInclude>
+    <ClInclude Include="SoulStone.h">
+      <Filter>无限宝石类</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeStone.h">
+      <Filter>无限宝石类</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "行为型模式", "行为�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "适配器模式", "适配器模式\适配器模式.vcxproj", "{D08B5A92-9019-4226-8259-428625F5BF18}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "装饰者模式", "装饰者模式\装饰者模式.vcxproj", "{A8246675-3EFD-4C4B-988F-AFBD15C65189}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -87,6 +89,14 @@ Global
 		{D08B5A92-9019-4226-8259-428625F5BF18}.Release|x64.Build.0 = Release|x64
 		{D08B5A92-9019-4226-8259-428625F5BF18}.Release|x86.ActiveCfg = Release|Win32
 		{D08B5A92-9019-4226-8259-428625F5BF18}.Release|x86.Build.0 = Release|Win32
+		{A8246675-3EFD-4C4B-988F-AFBD15C65189}.Debug|x64.ActiveCfg = Debug|x64
+		{A8246675-3EFD-4C4B-988F-AFBD15C65189}.Debug|x64.Build.0 = Debug|x64
+		{A8246675-3EFD-4C4B-988F-AFBD15C65189}.Debug|x86.ActiveCfg = Debug|Win32
+		{A8246675-3EFD-4C4B-988F-AFBD15C65189}.Debug|x86.Build.0 = Debug|Win32
+		{A8246675-3EFD-4C4B-988F-AFBD15C65189}.Release|x64.ActiveCfg = Release|x64
+		{A8246675-3EFD-4C4B-988F-AFBD15C65189}.Release|x64.Build.0 = Release|x64
+		{A8246675-3EFD-4C4B-988F-AFBD15C65189}.Release|x86.ActiveCfg = Release|Win32
+		{A8246675-3EFD-4C4B-988F-AFBD15C65189}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -99,6 +109,7 @@ Global
 		{C0FEFCFC-3161-4DE4-9021-707DFB91E332} = {A0D7F4EC-C07A-4752-954C-905D8F4CBE53}
 		{2307AE72-DF61-4D0B-9AFE-0FF96B1CD0F3} = {A0D7F4EC-C07A-4752-954C-905D8F4CBE53}
 		{D08B5A92-9019-4226-8259-428625F5BF18} = {CE76DB3E-E256-4C78-9AB4-88CA0EDEF5D4}
+		{A8246675-3EFD-4C4B-988F-AFBD15C65189} = {CE76DB3E-E256-4C78-9AB4-88CA0EDEF5D4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {21E24356-B467-43B7-A23A-0030CA608E4E}
