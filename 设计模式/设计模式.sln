@@ -39,6 +39,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "模板方法模式", "模�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "策略模式", "策略模式\策略模式.vcxproj", "{84A5B517-5B2F-4A6B-AE28-0860A1B6F08D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "迭代器模式", "迭代器模式\迭代器模式.vcxproj", "{BB0BB4E6-4B5A-432F-8DF0-926908D74D21}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -167,6 +169,14 @@ Global
 		{84A5B517-5B2F-4A6B-AE28-0860A1B6F08D}.Release|x64.Build.0 = Release|x64
 		{84A5B517-5B2F-4A6B-AE28-0860A1B6F08D}.Release|x86.ActiveCfg = Release|Win32
 		{84A5B517-5B2F-4A6B-AE28-0860A1B6F08D}.Release|x86.Build.0 = Release|Win32
+		{BB0BB4E6-4B5A-432F-8DF0-926908D74D21}.Debug|x64.ActiveCfg = Debug|x64
+		{BB0BB4E6-4B5A-432F-8DF0-926908D74D21}.Debug|x64.Build.0 = Debug|x64
+		{BB0BB4E6-4B5A-432F-8DF0-926908D74D21}.Debug|x86.ActiveCfg = Debug|Win32
+		{BB0BB4E6-4B5A-432F-8DF0-926908D74D21}.Debug|x86.Build.0 = Debug|Win32
+		{BB0BB4E6-4B5A-432F-8DF0-926908D74D21}.Release|x64.ActiveCfg = Release|x64
+		{BB0BB4E6-4B5A-432F-8DF0-926908D74D21}.Release|x64.Build.0 = Release|x64
+		{BB0BB4E6-4B5A-432F-8DF0-926908D74D21}.Release|x86.ActiveCfg = Release|Win32
+		{BB0BB4E6-4B5A-432F-8DF0-926908D74D21}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -187,6 +197,7 @@ Global
 		{16D324F0-46BA-4D0A-99FE-F24D06C65230} = {CE76DB3E-E256-4C78-9AB4-88CA0EDEF5D4}
 		{C679F8A8-4CF2-4E72-B2AF-0076C058731A} = {D81F939D-8741-413F-B53C-22530922E655}
 		{84A5B517-5B2F-4A6B-AE28-0860A1B6F08D} = {D81F939D-8741-413F-B53C-22530922E655}
+		{BB0BB4E6-4B5A-432F-8DF0-926908D74D21} = {D81F939D-8741-413F-B53C-22530922E655}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {21E24356-B467-43B7-A23A-0030CA608E4E}
