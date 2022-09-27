@@ -17,24 +17,25 @@ public:
 		void backToFirst() {
 			current = 0;
 		}
-		T* next() {
+		T next() {
 			return m_pocket->find(current++);
 		}
 		bool hasNext() {
 			return current != m_pocket->getCount() ;
 		}
+		
 
 	};
 private:
-	T** m_point;
+	T* m_point;
 	Iterator<T>* m_iterator;
 	int m_count,m_size;
 public:
 	Pocket(int size);
-	void add(T* t);
+	void add(T t);
 	bool isFull()const;
 	bool isEmpty()const;
-	T* find(int index)const;
+	T& find(int index)const;
 	int getSize()const;
 	int getCount()const;
 	Iterator<T>* GetIterator();
@@ -45,13 +46,14 @@ inline Pocket<T>::Pocket(int size)
 {
 	m_count = 0;
 	m_size = size;
-	m_point = new T*[m_size];
+	m_point = new T[m_size];
 
 }
 
 template<class T>
-inline void Pocket<T>::add(T * t)
+inline void Pocket<T>::add(T t)
 {
+	if (isFull()) return;
 	m_point[m_count++] = t;
 }
 
@@ -68,7 +70,7 @@ inline bool Pocket<T>::isEmpty()const
 }
 
 template<class T>
-inline T * Pocket<T>::find(int index)const
+inline T& Pocket<T>::find(int index)const
 {
 	return m_point[index];
 }
