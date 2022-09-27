@@ -11,7 +11,7 @@ int main()
 	IGashat* dangerousZombie = new Gashat("危险僵尸");
 	IGashat* knockoutFight = new DualGashat("击倒斗士",Gashat::Direct);
 	IGashat* chronicle = new Gashat("编年史");
-	Human exaid,gemn,paradox,chronos;
+	Human exaid,gemn,paradox,cronus;
 	exaid.henshin();
 
 	exaid.SetDriver(gamer);
@@ -31,7 +31,7 @@ int main()
 	paradox.SetDriver(gamer);
 	paradox.henshin();
 
-	chronos.SetDriver(buggle);
-	chronos.SetGashat(chronicle);
-	chronos.henshin();
+	cronus.SetDriver(buggle);
+	cronus.SetGashat(chronicle);
+	cronus.henshin();
 }
