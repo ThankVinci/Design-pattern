@@ -8,6 +8,9 @@ public:
 	ReadingSteiner(string name) :m_name(name) {}
 	virtual void response(double value) {}
 	virtual void implement() = 0;
+	~ReadingSteiner() {
+		cout << m_name << "离开了这个世界\n";
+	}
 };
 
 class Kyoma :public ReadingSteiner 
