@@ -53,6 +53,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "责任链模式", "责任�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "解释器模式", "解释器模式\解释器模式.vcxproj", "{8A721AF9-36FB-4B9A-B157-913567939237}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "访问者模式", "访问者模式\访问者模式.vcxproj", "{9DA37A6C-A7F8-4977-A43D-A7BCC297B3DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -237,6 +239,14 @@ Global
 		{8A721AF9-36FB-4B9A-B157-913567939237}.Release|x64.Build.0 = Release|x64
 		{8A721AF9-36FB-4B9A-B157-913567939237}.Release|x86.ActiveCfg = Release|Win32
 		{8A721AF9-36FB-4B9A-B157-913567939237}.Release|x86.Build.0 = Release|Win32
+		{9DA37A6C-A7F8-4977-A43D-A7BCC297B3DC}.Debug|x64.ActiveCfg = Debug|x64
+		{9DA37A6C-A7F8-4977-A43D-A7BCC297B3DC}.Debug|x64.Build.0 = Debug|x64
+		{9DA37A6C-A7F8-4977-A43D-A7BCC297B3DC}.Debug|x86.ActiveCfg = Debug|Win32
+		{9DA37A6C-A7F8-4977-A43D-A7BCC297B3DC}.Debug|x86.Build.0 = Debug|Win32
+		{9DA37A6C-A7F8-4977-A43D-A7BCC297B3DC}.Release|x64.ActiveCfg = Release|x64
+		{9DA37A6C-A7F8-4977-A43D-A7BCC297B3DC}.Release|x64.Build.0 = Release|x64
+		{9DA37A6C-A7F8-4977-A43D-A7BCC297B3DC}.Release|x86.ActiveCfg = Release|Win32
+		{9DA37A6C-A7F8-4977-A43D-A7BCC297B3DC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -264,6 +274,7 @@ Global
 		{E9064541-B083-423E-9A4C-49ED38369843} = {D81F939D-8741-413F-B53C-22530922E655}
 		{ED72741D-3921-49A9-A747-01EB7BA07D0E} = {D81F939D-8741-413F-B53C-22530922E655}
 		{8A721AF9-36FB-4B9A-B157-913567939237} = {D81F939D-8741-413F-B53C-22530922E655}
+		{9DA37A6C-A7F8-4977-A43D-A7BCC297B3DC} = {D81F939D-8741-413F-B53C-22530922E655}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {21E24356-B467-43B7-A23A-0030CA608E4E}
