@@ -2,10 +2,22 @@
 //
 
 #include <iostream>
+#include "State.h"
+#include "Human.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	unique_ptr<Human> jolyne = unique_ptr<Human>(new Human("徐伦"));
+	jolyne->standOff();
+	jolyne->standOn("石之自由");
+
+	unique_ptr<Human> muteki = unique_ptr<Human>(new Human("承太郎"));
+	muteki->standOn("白金之星");
+	muteki->standOn("杀手皇后");
+	shared_ptr<State> star = muteki->getState();
+	muteki->standOff();
+	
+	return 0;
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
