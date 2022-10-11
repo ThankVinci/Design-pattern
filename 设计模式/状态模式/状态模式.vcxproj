@@ -23,7 +23,7 @@
     <ProjectGuid>{FACC6113-20F8-49D4-81F4-0DF3A2344BCD}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>状态模式</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
