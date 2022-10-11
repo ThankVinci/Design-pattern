@@ -4,14 +4,26 @@
 #include "Expression.h"
 int main()
 {
-	string text =
-		"\tclass Integer {\
-			int m_value;\
-			int m_key;\
-			void m_null; \
-		}; ";
-	ClassExpression classexpression;
-	classexpression.Interpret(text);
+	TerminalExpression* terminalType = new TerminalExpression;
+	terminalType->add("int");
+	terminalType->add("float");
+	terminalType->add("double");
+	terminalType->add("char");
+	terminalType->add("bool");
+	terminalType->add("void");
+	terminalType->add("unsigned");
+	terminalType->add("signed");
+
+
+	IExpression* expression = new Expression(terminalType);
+	expression->Interpret("char c = \'c\';");
+	expression->Interpret("void p;");
+	expression->Interpret("int i = 9");
+	expression->Interpret("int ii = ;");
+	expression->Interpret("void;");
+	expression->Interpret("VOID p;");
+	expression->Interpret("VOID p;;;;;;;;;;;;;;");
+	return 0;
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
